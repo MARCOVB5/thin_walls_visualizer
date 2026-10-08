@@ -4,6 +4,8 @@ An application made to identify and visualize thin walls in 2D slices of 3D mode
 
 The algorithm is described in `docs/main.pdf`.
 
+![](docs/imgs/demo.gif)
+
 ## Structure
 
 ```
