@@ -56,7 +56,7 @@ The spurious branch filtering problem is critical for thin wall analysis because
 
 An algorithm that handles the filtering of spurious branches of a part through a topological and geometric procedure is proposed below. 
 
-Note that the spurious branch filtering problem is non-deterministic. For a given part, the user may be interested in keeping or removing certain regions that can be considered spurious branches. This requires the introduction of a variable, the ``Pruning Threshold $L_{prune}$'', which corresponds to a multiple of the threshold established for classifying thin wall regions. That is: 
+Note that the spurious branch filtering problem may have different outputs depending on the user's intent. For a given part, the user may be interested in keeping or removing certain regions that can be considered spurious branches. This requires the introduction of a variable, the ``Pruning Threshold $L_{prune}$'', which corresponds to a multiple of the threshold established for classifying thin wall regions. That is: 
 
 \[
 L_{prune} = k\cdot T_{max}, \; k\in\mathbb{R}_{\geq 0}
